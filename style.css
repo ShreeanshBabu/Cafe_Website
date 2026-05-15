@@ -14,7 +14,7 @@ body{
     justify-content: space-between;
     background-color: #f8f5ed;
     gap: 40px;
-    padding: 12px;
+    padding: 10px;
     padding-left: 50px;
     padding-right: 60px;
     box-shadow: 0 0 1px rgb(116, 112, 112);
@@ -69,6 +69,7 @@ body{
     font-size: 16px;
     font-family: "Montserrat", sans-serif;
     height: 16vh;
+    padding: 3px;
 }
 
 .nav-options a{
@@ -78,4 +79,68 @@ body{
 
 .nav-options a:hover{
     text-decoration: underline;
+}
+
+.product-showcase{
+    margin-top: 50px;
+    margin-left: 20px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.product-video{
+    display: flex;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 97.7vh;
+    height: 55vh;
+
+}
+
+.product-video video{
+    height: inherit;
+    object-fit: cover;
+    width: inherit;
+}
+
+.product-desc{
+    width: 600px;
+}
+
+#desc-heading {
+    font-size: 3.6rem;
+    letter-spacing: -1px;
+    line-height: 1;
+    font-weight: bolder;
+    font-family: "Oswald", sans-serif;
+    margin-bottom: 30px;
+}
+
+#desc{
+    font-weight: 400;
+    font-size: 1.8rem;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 30px;
+}
+
+.product-desc button{
+    background-color: black;
+    padding: 15px;
+    border-radius: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.product-desc button:hover{
+    cursor: pointer;
+}
+
+.product-desc button a{
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: black;
+    text-decoration: none;
+    color: white;
 }
