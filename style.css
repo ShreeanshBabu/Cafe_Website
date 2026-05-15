@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #f8f5ed;
+}
+
+body{
+    height: 200vh;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8f5ed;
+    gap: 40px;
+    padding: 12px;
+    padding-left: 50px;
+    padding-right: 60px;
+    box-shadow: 0 0 1px rgb(116, 112, 112);
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+#logo{
+    height: 100px;
+    width: auto;
+}
+
+#logo:hover{
+    cursor: pointer;
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+}
+
+.icons img{
+    height: 23px;
+    width: auto;
+    /* padding: 10px; */
+}
+
+#search:hover{
+    cursor: pointer;
+}
+
+#account:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+#cart:hover{
+    cursor: pointer;
+}
+
+.nav-options{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    gap: 30px;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    height: 16vh;
+}
+
+.nav-options a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-options a:hover{
+    text-decoration: underline;
+}
