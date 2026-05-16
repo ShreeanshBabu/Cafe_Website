@@ -340,3 +340,121 @@
     margin-top: -20px;
     font-size: 17px;
 }
+
+.label{
+    background-color: #f7e9bc;
+    height: 305px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.label-quality{
+    background-color: #f7e9bc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 260px;
+    gap: 10px;
+}
+
+.label-quality img{
+    background-color: #f7e9bc;
+    height: auto;
+    width: 41px;
+    margin-bottom: 10px;
+}
+
+.label-quality div{
+    background-color: #f7e9bc;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.label-quality span{
+    background-color: #f7e9bc;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    line-height: 1;
+}
+
+.cinematic-card-row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    margin-inline: 14px;
+}
+
+.cinematic-card{
+    height: 567px;
+    width: 450px;
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+}
+
+.cinematic-card img{
+    object-fit: cover;
+    height: inherit;
+    width: auto;
+}
+
+.cinematic-card-text{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    background-color: transparent;
+    font-family: "Oswald", sans-serif;
+    font-weight: bolder;
+    font-size: 4rem;
+    letter-spacing: -2px;
+    line-height: 1;
+}
+
+.order-items-title{
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: bolder;
+    font-size: 3.4rem;
+    letter-spacing: -2px;
+}
+
+.order-items-list{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    gap: 20px;
+}
+
+.order-items-options{
+    display: inline;
+    background-color: #33312e;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    padding: 11px;
+    padding-inline: 30px;
+    border-radius: 20px;
+}
+
+.order-items-options:hover{
+    cursor: pointer;
+}
+
+.order-items-options span{
+    background-color: #33312e;
+}
+
+.items-display{
+    margin: 45px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    place-items: center;
+    gap: 10px;
+}
